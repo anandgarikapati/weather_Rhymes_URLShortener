@@ -1,0 +1,43 @@
+body {
+    background-color: mediumseagreen;
+}
+h1 {
+    color:#b81147;
+}
+#main {
+    text-align: center;
+    position: relative;
+    top: 125px;
+
+}
+input {
+    text-align: center;
+    position: relative;
+    height: 30px;
+    width: 170px;
+    border-radius: 1px;
+    
+    
+}
+button {
+    background-color:gold;
+    position: relative;
+    height: 35px;
+    width: 100px;
+}
+#displaycontent {
+    border-radius: 15px;
+    color:black;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    font-weight:bolder;
+    font-size: x-large;
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    background-color: cornsilk;
+    
+
+    
+}
