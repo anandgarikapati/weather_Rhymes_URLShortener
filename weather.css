@@ -1,0 +1,54 @@
+#weatherheading {
+    color:black;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+#big {
+    font-size: 100px;
+    color: black;
+}
+#weathermain {
+    /* background-image: url("https://d1avenlh0i1xmr.cloudfront.net/5a9d663f-e9d1-4cb9-9006-a7482e2b1298/wind-energy-gif-by-teachoo.gif"); */
+    /* background-color: mediumseagreen; */
+    text-align: center;
+    position:absolute;
+    top: 0px;
+    bottom: 0;
+    
+    left: 500px;
+    /* height: 550px; */
+    width: 450px;
+    padding: 10px;
+    border-radius: 0px;
+}
+#weatherheading {
+   text-align: center;
+   font-family:fantasy;
+}
+#weathercity {
+   text-align: center;
+   border-radius: 10px;
+   width: 450px;
+   height: 50px;
+}
+#weathersearch {
+   background-color: rgb(8, 133, 35);
+   color: rgb(253, 249, 249);
+   font-size: x-large;
+   padding: 10px;
+   border-radius: 10px;
+   
+}
+#weathershowdata {
+   color: #020704f5;
+    font-size: x-large;
+    /* margin: auto; */
+    text-align: center;
+    position: relative;
+    top: 85px; 
+    line-height: 0.5;
+    
+}

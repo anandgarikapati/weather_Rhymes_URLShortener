@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Rhymes</title>
+     <link rel="stylesheet" href="./rhymes.css"> 
+    <link rel="stylesheet" href="./urlshorten.css">
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+  <div>
+    <p id="rhymespara">close similarity in the final sounds of <br>two or more words or lines of writing</p>
+    
+  </div>
+  <br>
+  <div id="rhymesmain">
+        <h1 id="rhymesheading">Rhymes</h1>
+        <input id="rhymesinput" type="text" placeholder="Type a Word">
+        <br>
+        <br>
+        <button id="rhymessubmit"><strong>Get Rhymes</strong></button>
+        <div id="rhymescontent">
+        </div>
+  </div>
+    <script src="./rhymes.js"></script>
+
+    
+    <p id="urlpara">a URL shortener takes some long,<br> unwieldy link and turns it into a <br>shorter, easy-to-share one</p>
+    <div id="urlmain">
+      <h1 id="urlheading">Shorten your URL</h1>
+       <input id="urlinput" type="text" placeholder="Enter URL">
+        <br>
+        <br>
+      <button id="urlsubmit" type="submit">Shorten</button>
+      <div id="urlcontent">
+        <h3 id="urllink"></h3>
+      </div>
+    </div>
+    <script src="./url.js"></script>
+ 
+
+
+    
+    <div id="weathermain">
+        <h1 id="weatherheading"><span id="big">w</span>eather Check</h1>
+          <br>
+           <h2 id="weathererror"></h2>
+          <input id="weathercity" type="text" placeholder="Enter City Name" required>
+          <br>
+          <br>
+         <input id="weathersearch" type="button" value="Get Weather">
+        <div id="weathershowdata">
+            <h1 id="weathertemp"></h1>
+            <h2 id="clouds"></h2>
+            <h2 id ="place"></h2>
+        </div>
+    </div>
+    <script type="text/javascript" src='./weather.js'></script>
+</body>
+</html>
