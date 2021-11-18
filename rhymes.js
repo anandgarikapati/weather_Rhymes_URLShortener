@@ -3,7 +3,6 @@ const button = document.getElementById('rhymessubmit')
 const content = document.getElementById('rhymescontent')
 
 
-
 button.addEventListener('click', () => {
     //console.log(inputField.value)
     const url = 'https://api.datamuse.com/words?sl='
@@ -35,9 +34,5 @@ button.addEventListener('click', () => {
             
         }
        }
-
-
-       
-        
     })
 })

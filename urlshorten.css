@@ -1,9 +1,8 @@
 #urlheading {
     color: white;
-    border-top: 8px solid white;
-    border-bottom: 8px solid white;
-    border-top-color: rgb(240, 234, 231);
-    border-bottom-color: rgb(240, 240, 229);
+    /* border-top: 4px solid white; */
+    /* border-bottom: 4px solid white; */
+    
     
 }
 #urlpara {
@@ -18,27 +17,32 @@
 
 }
 #urlmain {
-    background-color: brown;
+    /* background-color: brown; */
     text-align: center;
     position:absolute;
-    top: 180px;
-    left: 1033px;
+    top: 280px;
+    left: 1150px;
     height: 500px;
     width: 300px;
     border-radius: 20px;
 }
 #urlinput {
+    outline: none;
+    color: white;
     text-align: center;
     height: 50px;
     width: 270px;
+    border: none;
     border-radius: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
 }
 #urlsubmit:active {
-    background-color: green;
+    background-color: rgb(31, 174, 179);
     transform: translateY(4px);
 }
 #urlsubmit {
-    box-shadow: 0 5px white;
+    box-shadow: 0 5px yellow;
     color: aliceblue;
     font-size:x-large; 
     background-color: black;
@@ -49,7 +53,7 @@
 }
 #urlcontent {
     position: relative;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 100px;
     width: 250px;
     margin: auto;
@@ -58,7 +62,7 @@
     
 }
 #urllink {
-    color: black;
+    color: white;
     text-align: center;
     position: relative;
     top: 10px;
