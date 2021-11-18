@@ -1,4 +1,4 @@
-window.onload=function(){
+
     const inputWeatherValue = document.getElementById("weathercity")
     const search = document.getElementById("weathersearch")
     const key = "4de73181ea2471ccb578a4d96a5afe17"
@@ -7,17 +7,16 @@ window.onload=function(){
     const weather = document.getElementById("clouds")
     const place = document.getElementById("place")
     const temp = document.getElementById("weathertemp")
- 
-    inputWeatherValue.addEventListener("keyup",(enter) => {
-       if(enter.keyCode === 13){
-         requestapi()
-       } else {
-         // event.preventDefault()
-         //   search.addEventListener("click", requestapi())
-       } 
-    })      
 
-    const requestapi = () => {
+   inputWeatherValue.addEventListener("keyup", event => {
+      if (event.keyCode === 13) {
+         requestweatherapi()
+      } else {
+          event.preventDefault()
+          search.addEventListener("click",requestweatherapi)
+      }
+  })
+    const requestweatherapi = () => {
       const inputCity = inputWeatherValue.value
       //console.log(inputCity)
       let apiName = `https://api.openweathermap.org/data/2.5/weather?q=${inputCity}&appid=${key}`
@@ -40,6 +39,6 @@ window.onload=function(){
          }
        })
     }
- }
+
  
  

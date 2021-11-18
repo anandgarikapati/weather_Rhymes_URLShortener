@@ -41,7 +41,7 @@
    border-bottom: 2px solid white;
 }
 #weathersearch:active{
-    background-color: green;
+    background-color: tomato;
     transform: translateY(4px);
     
 }

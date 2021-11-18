@@ -3,9 +3,16 @@ const button = document.getElementById('rhymessubmit')
 const content = document.getElementById('rhymescontent')
 
 
-button.addEventListener('click', () => {
-    //console.log(inputField.value)
-    const url = 'https://api.datamuse.com/words?sl='
+inputField.addEventListener('keyup', event => {
+    if(event.keyCode === 13) {
+        requestapi()
+    } else {
+        event.preventDefault()
+        button.addEventListener("click", requestapi)
+    }
+} )
+    const requestapi = () => {
+        const url = 'https://api.datamuse.com/words?sl='
     const word = inputField.value
     const endPoint = url + word
     //console.log(endPoint)
@@ -35,4 +42,5 @@ button.addEventListener('click', () => {
         }
        }
     })
-})
+}
+    

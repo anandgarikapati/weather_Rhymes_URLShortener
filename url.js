@@ -4,6 +4,14 @@ const urlContent = document.getElementById("urllink")
 const shortUrl = 'https://api.rebrandly.com/v1/links'
 const apiKey = 'c160700a45a64093bef52ef7cdeb4e59'
 
+inputUrlField.addEventListener("keyup", event => {
+    if(event.keyCode === 13) {
+        urlShorten()
+    } else {
+        event.preventDefault()
+        urlButton.addEventListener("click", urlShorten)
+    }
+})
 const urlShorten = () => {
     const input = inputUrlField.value 
     const data = JSON.stringify({destination: input})
@@ -25,4 +33,3 @@ const urlShorten = () => {
     })
 }
 
-urlButton.addEventListener("click", urlShorten)
