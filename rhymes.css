@@ -58,7 +58,7 @@ body {
 
 #rhymessubmit:active {
     
-    background-color: rgba(45, 175, 95, 0.877);
+    background-color: rgb(38, 153, 219);
     transform: translateY(5px);
 }
 #rhymessubmit {
@@ -87,4 +87,12 @@ body {
     width: 200px;
     height: 170px;
     /* background-color: cornsilk; */
+  }
+  footer {
+      position: absol;
+      color: white;
+      float: right;
+      padding: 10px 30px;
+      
+      
   }
