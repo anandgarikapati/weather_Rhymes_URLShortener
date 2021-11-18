@@ -13,6 +13,7 @@ body {
     left: 90px;
 }
 #rhymesheading {
+    font-family: Segoe Print;
     color: rgb(250, 242, 242);
     position: relative;
     /* bottom: 50px; */
@@ -57,14 +58,14 @@ body {
 
 #rhymessubmit:active {
     
-    background-color: tomato;
+    background-color: rgba(45, 175, 95, 0.877);
     transform: translateY(5px);
 }
 #rhymessubmit {
-    box-shadow: 0 5px yellow;
+    box-shadow: 0PX 5px yellow;
     cursor: pointer;
     color:white;
-    font-size: large;
+    font-size: x-large;
     background-color: black;
     position: relative;
     height: 50px;
