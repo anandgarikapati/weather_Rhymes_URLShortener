@@ -1,6 +1,6 @@
 #weatherheading {
     color:white;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     
     position: relative;
     top: 20px;
@@ -28,7 +28,7 @@
 #weatherheading {
     
    text-align: center;
-   font-family: Segoe Print;
+   font-family: Arial, sans-serif;
 }
 #weathercity {
     color: white;
