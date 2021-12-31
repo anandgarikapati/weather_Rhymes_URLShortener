@@ -18,7 +18,7 @@ const urlShorten = () => {
     console.log(data)
     fetch(shortUrl, {method: 'POST', headers: {'Content-type': 'application/json','apikey': apiKey}, body: data})
     .then(response => {
-        //console.log(response)
+        console.log(response)
         if(response.ok) {
             return response.json()
         }else {
