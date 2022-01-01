@@ -37,7 +37,7 @@ inputField.addEventListener('keyup', event => {
             //console.log(list)
             wordList = list.join("")
 
-            content.innerHTML = `<ol>${wordList}</ol>` 
+            content.innerHTML = `<ol>${wordList.toUpperCase()}</ol>` 
             
         }
        }

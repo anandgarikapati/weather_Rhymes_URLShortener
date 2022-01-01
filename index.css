@@ -5,6 +5,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;  
 }
+.heading {
+    display: none;
+}
 h1 {
     color: white;
 }
@@ -78,6 +81,8 @@ input:valid ~ label{
      padding: 15px;
  }
  @media only screen and (max-width: 490px) {
+     
+
      .container {
          margin-top: 10px;
      }
